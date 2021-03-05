@@ -3,13 +3,29 @@ html {
   scroll-behavior: smooth; /* Smooth page scrolling */
 }
 
+h1 {
+  font-family: 'Helvetica';
+}
+
+h2 {
+  font-family: 'Helvetica';
+}
+
+h3 {
+  font-family: 'Helvetica';
+}
+
+body {
+  font-family: 'Helvetica';
+}
+
 /* Body */
 body {
 	margin: 0%; /* Takes the site to edge of browser*/
     opacity: 1; /* This creates the fade in effect */
     transition: 2s opacity; /* Here is a 2 second fade in */
 	letter-spacing: .2vw;
-	font-family: Avant Garde, Helvetica; 
+	font-family: Helvetica; 
 	font-size: 1.5vw;
 	
 	}
@@ -23,6 +39,7 @@ body.fade-out {
 /* Navbar */
 .Navbar {
 	overflow: hidden; /* This ensures no overflow */
+  font-family: Helvetica;
 	background-color: black; /* black navbar */
 	position: fixed; /* Keeps our navbar at the top */
 	top: 0; 
@@ -39,7 +56,7 @@ body.fade-out {
 	color: white;
 	padding: .75vw 1vw; 
 	text-decoration: none;
-	font-family: Avant Garde, Helvetica; 
+	font-family: Helvetica; 
 	font-size: 1.5vw; 
 	text-align: center; 
     position: relative;
@@ -191,7 +208,7 @@ body.fade-out {
   bottom: 0;
   width: 100%;
   text-align: center;
-  font-family: Perpetua, Rockwell Extra Bold;
+  font-family: Helvetica;
   letter-spacing: .1vw; 
   font-size: 1.5vw;
   background-color: rgba(0,0,0,0.75);
@@ -204,7 +221,7 @@ body.fade-out {
   color: white;
   position: absolute;
   top: 0;
-  font-family: Perpetua, Rockwell Extra Bold;
+  font-family: Helvetica Bold;
   letter-spacing: .1vw; 
   font-size: 1.5vw;
   font-weight: bold;
@@ -268,7 +285,7 @@ body.fade-out {
 /* Heading 1 elements */
 h1 {
 	text-transform: uppercase; /* Capitalized heading */
-	font-family: "Trebuchet MS", Optima; 
+	font-family: Helvetica;
 	text-align: center;
 	margin-top: 3%; 
 	color: #1a1a1a;
@@ -276,7 +293,7 @@ h1 {
 
 /* Paragraph elements */
 p {
-	font-family: Perpetua, Rockwell Extra Bold;
+	font-family: Helvetica;
 	text-align: justify;
 	letter-spacing: .1vw; 
 	font-size: 1.5vw;
@@ -285,7 +302,7 @@ p {
 }
 
 center {
-	font-family: Perpetua, Rockwell Extra Bold;
+	font-family: Helvetica;
 	text-align: center;
 	letter-spacing: .1vw;
 	font-size: 1.5vw;
@@ -300,7 +317,8 @@ a {
 
 /* Quotation elements */
 q {
-	font-style: italic;
+	font-family: 'Palatino-Linotype';
+  font-style: italic;
 	font-weight: bold;
 }
 
@@ -404,7 +422,7 @@ img:hover {
 
 /* Button styling */
 button {
-  font-family: "Trebuchet MS", Optima; 
+  font-family: Helvetica; 
   letter-spacing: .3vw; 
   font-size: 1.5vw;
   font-weight: bold;
@@ -414,7 +432,7 @@ button {
   width: 100%;
   height: auto;
 }
-
+q
 /* Hover effect for buttons */
 button:hover, .form-container .btn:hover{
   color: white;
