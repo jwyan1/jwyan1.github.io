@@ -1,0 +1,61 @@
+body {background-color: black;}
+
+
+p {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  color:white;
+  font-family: 'Roboto Slab', serif;
+}
+
+img {
+  opacity: 0.4;
+  max-width: 100%;  
+  height: auto;  
+}
+.card {
+  background-color: black;
+}
+
+.card-text{
+  font-family: 'Montserrat', sans-serif;  
+}
+
+.card-title{
+  font-family: 'Roboto Slab', serif;
+}
+
+.fade-in {
+animation: fadeIn ease 10s;
+-webkit-animation: fadeIn ease 10s;
+-moz-animation: fadeIn ease 10s;
+-o-animation: fadeIn ease 10s;
+-ms-animation: fadeIn ease 10s;
+}
+@keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+0% {opacity:0;}
+100% {opacity:1;}
+}
